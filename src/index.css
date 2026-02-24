@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-huawei-50: #fcf3f3;
+  --color-huawei-100: #fae3e3;
+  --color-huawei-200: #f6cdcd;
+  --color-huawei-300: #f0adae;
+  --color-huawei-400: #e57e80;
+  --color-huawei-500: #d7585a;
+  --color-huawei-600: #c23e40;
+  --color-huawei-700: #a32d2f;
+  --color-huawei-800: #88292a;
+  --color-huawei-900: #712628;
+  --color-huawei-950: #3d1011;
+  --color-huawei-red: #c8102E;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-huawei-red text-white font-medium rounded-lg shadow-md hover:bg-huawei-700 transition-colors focus:ring-4 focus:ring-huawei-red/30 focus:outline-none;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-white text-slate-700 border border-slate-300 font-medium rounded-lg shadow-sm hover:bg-slate-50 transition-colors focus:ring-4 focus:ring-slate-200 focus:outline-none;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-slate-200;
+  }
+}
