@@ -15,6 +15,10 @@ import { pre2526QuestionsPart2 } from './q_pre2526_part2';
 import { pre2526QuestionsPart3 } from './q_pre2526_part3';
 import { pre2526QuestionsPart4 } from './q_pre2526_part4';
 import { pre2526QuestionsPart5 } from './q_pre2526_part5';
+import { githubFindsQuestions } from './q_github_finds';
+import { githubFindsQuestionsPart2 } from './q_github_finds_part2';
+import { githubFindsQuestionsPart3 } from './q_github_finds_part3';
+import { githubFindsQuestionsPart4 } from './q_github_finds_part4';
 
 export const allQuestions = [
     ...preliminaryQuestions,
@@ -34,4 +38,8 @@ export const allQuestions = [
     ...pre2526QuestionsPart3,
     ...pre2526QuestionsPart4,
     ...pre2526QuestionsPart5,
+    ...githubFindsQuestions,
+    ...githubFindsQuestionsPart2,
+    ...githubFindsQuestionsPart3,
+    ...githubFindsQuestionsPart4,
 ];
