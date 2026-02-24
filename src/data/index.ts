@@ -2,6 +2,7 @@ import { preliminaryQuestionsPart2 } from './q_pre_part2';
 import { y2324QuestionsPart1 } from './q_2324_part1';
 import { y2324QuestionsPart2 } from './q_2324_part2';
 import { y2324QuestionsPart3 } from './q_2324_part3';
+import { y2324NationalQuestions } from './q_2324_national';
 import { y2526QuestionsPart1 } from './q_2526_part1';
 import { y2526QuestionsPart2 } from './q_2526_part2';
 import { y2526QuestionsPart3 } from './q_2526_part3';
@@ -26,6 +27,7 @@ export const allQuestions = [
     ...y2324QuestionsPart1,
     ...y2324QuestionsPart2,
     ...y2324QuestionsPart3,
+    ...y2324NationalQuestions,
     ...y2526QuestionsPart1,
     ...y2526QuestionsPart2,
     ...y2526QuestionsPart3,
