@@ -4,5 +4,6 @@ export interface Question {
     text: string;
     options: string[];
     correctAnswers: string[];
+    explanation?: string;
     type: 'unique' | 'multi' | 'boolean';
 }
